@@ -1,0 +1,26 @@
+{
+  "name": "instagramjs",
+  "version": "0.1.0",
+  "description": "Comparte tus fotos de viajes con tus amigos",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpqeuni/InstagramJS.git"
+  },
+  "keywords": [
+    "javascript",
+    "danielpqe",
+    "platzi",
+    "viajes",
+    "fotos"
+  ],
+  "author": "Daniel Quispe Espinoza <danielpqe@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielpqeuni/InstagramJS/issues"
+  },
+  "homepage": "https://github.com/danielpqeuni/InstagramJS#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
