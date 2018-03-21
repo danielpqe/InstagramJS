@@ -1,9 +1,9 @@
 var express = require('express');
 var app=express();
 // express: sirve para crear un micro entorno para servidores
-
+app.set('view engine','pug')
 app.get('/',function (req,res) {
-    res.send('Hola mundo!')
+    res.render('index')
 });
 
 app.listen(3000,function (err) {
