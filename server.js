@@ -1,7 +1,7 @@
 var express = require('express');
 var app=express();
-// express: sirve para crear un micro entorno para servidores
-app.set('view engine','pug')
+app.set('view engine','pug');
+app.use(express.static('public'));
 app.get('/',function (req,res) {
     res.render('index')
 });
