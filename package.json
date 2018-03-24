@@ -23,11 +23,17 @@
   "dependencies": {
     "express": "^4.16.3",
     "materialize-css": "~0.100.2",
+    "page": "^1.8.5",
     "pug": "^2.0.3"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.1",
     "gulp": "~3.9.1",
+    "gulp-rename": "~1.2.2",
     "gulp-sass": "~3.1.0",
-    "gulp-rename": "~1.2.2"
+    "vinyl-source-stream": "^2.0.0"
   }
 }
