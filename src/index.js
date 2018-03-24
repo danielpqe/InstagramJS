@@ -1,4 +1,5 @@
 var page=require('page');
+var yo=require('yo-yo');
 var main=document.getElementById('main-container');
 
 page('/',function (ctx,next) {
@@ -6,6 +7,7 @@ page('/',function (ctx,next) {
 })
 
 page('/signup',function (ctx,next) {
-    main.innerHTML='SIGNUP <a href="/">Home</a>'
+    var main=document.getElementById('main-container');
+    var el = 'yo'
 })
 page.start()

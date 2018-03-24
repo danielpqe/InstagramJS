@@ -21,10 +21,12 @@
   },
   "homepage": "https://github.com/danielpqeuni/InstagramJS#readme",
   "dependencies": {
+    "empty-element": "^1.0.0",
     "express": "^4.16.3",
     "materialize-css": "~0.100.2",
     "page": "^1.8.5",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "yo-yo": "^1.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -34,6 +36,11 @@
     "gulp": "~3.9.1",
     "gulp-rename": "~1.2.2",
     "gulp-sass": "~3.1.0",
-    "vinyl-source-stream": "^2.0.0"
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "start": "node server.js & gulp watch"
   }
 }
